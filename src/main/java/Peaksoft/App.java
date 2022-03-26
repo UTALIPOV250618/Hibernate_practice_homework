@@ -15,10 +15,10 @@ public class App
     public static void main( String[] args )
     {
 //        HibernateConf.getSessionFactory();
-        Customer customer = new Customer("Mirbek","Atabekov");
+        //Customer customer = new Customer("Mirbek","Atabekov");
         Service service = new Service();
-        service.addCustomer(customer);
-        service.filterByName("Mirbek");
+        //service.addCustomer(customer);
+        service.filterByName("Ulukmyrza");
 //        service.getCustomerById(4);
 //
 //        service.updateCustomerName(3,"Messi","Pessi");
